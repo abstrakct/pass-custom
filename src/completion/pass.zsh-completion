@@ -29,7 +29,7 @@ _pass () {
 			ls|list|edit)
 				_pass_complete_entries_with_subdirs
 				;;
-			insert)
+			insert|add)
 				_arguments : \
 					"-e[echo password to console]" \
 					"--echo[echo password to console]" \
