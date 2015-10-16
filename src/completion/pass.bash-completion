@@ -83,7 +83,7 @@ _pass()
 				COMPREPLY+=($(compgen -W "-c --clip" -- ${cur}))
 				_pass_complete_entries 1
 				;;
-			insert)
+			insert|add)
 				COMPREPLY+=($(compgen -W "-e --echo -m --multiline -f --force" -- ${cur}))
 				_pass_complete_entries
 				;;
